@@ -91,7 +91,6 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
     margin-bottom: 0;
 }
 
@@ -99,12 +98,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -147,15 +146,15 @@ footer nav a {
 
 
 /* Starting my code here */
-body {
 
+.top-container {
+    width: 800px;
+    margin: 0 auto;
 }
 
-.top-nav{
+.top-nav {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-
 }
 
 .nav-a {
@@ -170,4 +169,41 @@ body {
 
 .highway-img{
     margin-bottom: 20px;
+}
+
+
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;  
+}
+.box7 {
+    background-color: darkorchid; 
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo; 
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+.middle-content{
+  box-sizing: border-box;
 }
