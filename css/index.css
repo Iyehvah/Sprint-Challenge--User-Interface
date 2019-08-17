@@ -144,3 +144,30 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* Starting my code here */
+body {
+
+}
+
+.top-nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.nav-a {
+    text-decoration: none;
+    color: black;
+    margin-left: 81px;
+}
+
+.lambda-black-img {
+    margin-bottom: 20px;
+}
+
+.highway-img{
+    margin-bottom: 20px;
+}
