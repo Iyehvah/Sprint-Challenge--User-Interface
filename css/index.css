@@ -91,7 +91,6 @@ p {
 }
 
 .middle-content h2 {
-    padding: 0 2%;
     margin-bottom: 0;
 }
 
@@ -99,12 +98,12 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    text-align: center;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +142,121 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* Starting my code here */
+
+.top-container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.top-nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-a {
+    text-decoration: none;
+    color: black;
+    margin-left: 81px;
+}
+
+.lambda-black-img {
+    margin-bottom: 20px;
+}
+
+.highway-img{
+    margin-bottom: 20px;
+}
+
+
+
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color: forestgreen;  
+}
+.box7 {
+    background-color: darkorchid; 
+}
+.box8 {
+    background-color: hotpink;
+}
+.box9 {
+    background-color: indigo; 
+}
+.box10 {
+    background-color: dodgerblue;
+}
+
+/* About page CSS */
+
+.about-container {
+    border-top: 1px dashed black;
+    margin-top: 30px;
+    padding-top: 30px;
+    width: 880px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.tall-buildings-img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-header {
+    padding-top: 20px;
+}
+
+.content-div {
+    width: 370px;
+    margin: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.content-h2 {
+    padding-top: 20px;
+}
+
+.about-p {
+    margin-bottom: 20px;
+}
+
+.learn-more-button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-section {
+    margin: 0 auto;
+    width: 835px;
+    padding-right: 30px;
+}
+
+.about-footer-nav {
+    width: 835px;
+    margin: 20px 20px 0px 330px;
 }
