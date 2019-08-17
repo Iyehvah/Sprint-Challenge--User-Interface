@@ -38,7 +38,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-    Two big differences between display: block; and displpay: inline; is that 
+    Two big differences between display: block; and display: inline; are that display: block takes up a whole line and forces anything after it to start on its own line. While display: inline doesnt disrupt the content around it and flows with the rest of the content after it.
 
 3. What are the 4 areas of the box model?
 
