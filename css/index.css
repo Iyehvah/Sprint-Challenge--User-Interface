@@ -204,6 +204,23 @@ footer nav a {
     background-color: dodgerblue;
 }
 
-.middle-content{
-  box-sizing: border-box;
+/* About page CSS */
+
+.about-container {
+    border-top: 1px dashed black;
+    margin-top: 10px;
+    padding-top: 10px;
+    width: 880px;
+    margin-left: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.content-div {
+    width: 300px;
+}
+
+.does-this-work {
+    display: inline-block;
 }
